@@ -1,8 +1,8 @@
-= redmine_prometheus plugin
+= Prometheus monitoring for Redmine
 
 This plugin adds prometheus monitoring capability for Redmine.
 
-= installation 
+= Installation 
 
 Clone plugin to your redmine plugins folder, then install dependencies
 
