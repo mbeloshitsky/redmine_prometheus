@@ -1,11 +1,21 @@
-= redmine_prometheus
+= redmine_prometheus plugin
 
-This plugins adds prometheus monitoring capability for Redmine.
+This plugin adds prometheus monitoring capability for Redmine.
 
 = installation 
 
-TODO
+Clone plugin to your redmine plugins folder, then install dependencies
 
-= usage 
+    bundle install
 
-TODO
+and you are ready.  In your `prometheus` configuration you should add something
+like this:
+
+    - job_name: redmine
+      scrape_interval: 15s
+      scrape_timeout: 5s
+      metrics_path: /metrics
+      scheme: http
+      static_configs:
+      - targets:
+          - your.redmine.host
