@@ -1,3 +1,11 @@
-= prometheus
+= redmine_prometheus
 
-Description goes here
+This plugins adds prometheus monitoring capability for Redmine.
+
+= installation 
+
+TODO
+
+= usage 
+
+TODO
