@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 'prome', github: 'mbeloshitsky/prome'
+gem 'prome', :git => 'https://github.com/mbeloshitsky/prome.git'
